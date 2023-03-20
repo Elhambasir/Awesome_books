@@ -1,0 +1,11 @@
+table td {
+  display: table-row;
+}
+
+.container {
+  width: 90%;
+}
+
+form > * {
+  margin: 10px 10px;
+}
