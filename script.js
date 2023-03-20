@@ -35,4 +35,3 @@ window.onload = function retrieveData() {
         table.innerHTML += generatedContent;
     });
 };
-// ....
