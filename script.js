@@ -35,3 +35,15 @@ window.onload = function retrieveData() {
         table.innerHTML += generatedContent;
     });
 };
+
+function removeItem(item) {
+    
+  let bookList = JSON.parse(localStorage.getItem('bookInfo'));
+  bookList = bookList.filter((element) => { 
+      return item != element.title;
+  });
+  const string = JSON.stringify(bookList);
+  localStorage.setItem('bookInfo', string);
+  window.location.reload();
+
+}
