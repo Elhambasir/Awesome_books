@@ -8,15 +8,15 @@
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/0xMALVEE/Awesome-Books.git"
+      "url": "git+https://github.com/Elhambasir/Awesome_books.git"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/0xMALVEE/Awesome-Books/issues"
+      "url": "https://github.com/Elhambasir/Awesome_books/issues"
     },
-    "homepage": "https://github.com/0xMALVEE/Awesome-Books#readme",
+    "homepage": "https://github.com/Elhambasir/Awesome_books#readme",
     "devDependencies": {
       "babel-eslint": "^10.1.0",
       "eslint": "^7.32.0",
