@@ -1,11 +1,88 @@
 table td {
-  display: table-row;
+  /* display: table-row; */
+  padding: 5px;
 }
 
 .container {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list {
   width: 90%;
+  padding: 10px;
 }
 
 form > * {
   margin: 10px 10px;
+}
+
+table {
+  width: 100%;
+  border: 3px solid black;
+}
+
+table tr td:last-child {
+  text-align: right;
+}
+
+table tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+div.list hr {
+  width: 35%;
+  border: 1px solid black;
+}
+
+.addToList h4 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.btnAddCover {
+  text-align: right;
+}
+
+.btnAddCover button,
+#removeBtn {
+  border: 2px solid black;
+  box-shadow: 2px 2px 2px black;
+}
+
+#removeBtn:hover {
+  cursor: pointer;
+}
+
+.btnAddCover button:hover {
+  cursor: pointer;
+}
+
+.addToList {
+  text-align: center;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+form {
+  width: 80%;
+}
+
+form div {
+  text-align: center;
+  width: 100%;
+}
+
+form input {
+  padding: 5px;
+  width: 97%;
+  border: 2px solid black;
+  box-shadow: 2px 2px 2px black;
 }

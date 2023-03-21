@@ -1,11 +1,11 @@
-# MyPortfolio
+# Awesome books
 <a name="readme-top"></a>
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Awesome books project</b></h3>
 
 </div>
 
@@ -33,10 +33,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello Microverse] <a name="about-project">
-Hello , this a mobile first portfolio project</a>
+# 📖 [Awesome book] <a name="about-project">
+Hello , this a simple Awesome book project</a>
 
-[Basir elham's portfolio] This a portfolio mobile first app. It is created according to a figma template and the complete version will be pushed next time.
+[Basir elham's Awesome book's porject] is an amazng productiivity tool that provides MVP feel with its basic functionalities. It enable users to display books, add books, updatae statuses of books, and to delete books when the need arise.
 
 ## 🛠 Built With 
 
@@ -48,8 +48,9 @@ JAVASCRIPT
 ### Key Features 
 
 - **[Navbar]**
-- **[Background image]**
-- **[Bobile first]**
+- **[Add book]**
+- **[Show list of the books]**
+- **[Romove book]**
 - **[Linter is used]**
 
 <!-- GETTING STARTED -->
@@ -64,7 +65,7 @@ In order to run this project you need:You have to clone this project to your loc
 
 ### Setup
 
-Clone this repository to your desired folder:git clone git@github.com:Elhambasir/MyPortfolio.git
+Clone this repository to your desired folder:git clone https://github.com/Elhambasir/Awesome_books.gitt
 
 ### Install
 
@@ -78,20 +79,18 @@ To run the project, execute the following command: On your computer's keyboard p
 
 To run tests, run the following command: In visual studio code with live server plugin right click and run live server.
 
-### Deployment
-
-## 🚀 Live Demo <a name="Live Demo"></a>
-
-[Live Demo Link](https://elhambasir.github.io/MyPortfolio/)
-
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author**
+👤 **Basir Elham**
 
 - GitHub: [@Elhambasir](https://github.com/Elhambasir)
 - LinkedIn: [basir ahmadi](https://www.linkedin.com/in/basir-ahmadi-8aba89263)
+
+👤 **Abdurahim Miftah**
+
+- GitHub: [@UbdaNam](https://github.com/UbdaNam)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -108,11 +107,6 @@ To run tests, run the following command: In visual studio code with live server 
 ## Contributions
 
 Contributions, issues, and feature requests are welcome!
-
-*GitHub: [Dorcas126](https://github.com/Dorcas126)
-*GitHub: [KAYEMBAJONATHAN](https://github.com/KAYEMBAJONATHAN)
-*GitHub: [Nelofarzabi](https://github.com/Nelofarzabi)
-*GitHub: [popey17](https://github.com/popey17)
 
 Feel free to check the [issues page](../../issues/).
 
