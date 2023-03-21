@@ -45,11 +45,9 @@ class Books {
       data.forEach(element => {
         const generatedContent = `
         <tr>
-        <td>${element.title}</td>
-        <td>${element.author}</td>
+        <td>"${element.author}" by ${element.title}</td>
         <td><button id="removeBtn" onclick='removeFun("${element.title}")'>Remove</button></td>
-        <td><hr></td>
-      </tr>
+        </tr>
         `;
         bookData += generatedContent;
       });
@@ -65,7 +63,7 @@ addBtn.addEventListener('click', (e) => {
   obj.addBooks();
 })
 
-function removeFun(item){
+function removeFun(item) {
   obj.removeItem(item)
 };
 
