@@ -90,7 +90,7 @@ To run tests, run the following command: In visual studio code with live server 
 
 👤 **Abdurahim Miftah**
 
-- GitHub: [@Elhambasir](https://github.com/UbdaNam/Portfolio)
+- GitHub: [@UbdaNam](https://github.com/UbdaNam)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
