@@ -24,7 +24,7 @@ class Books {
     const booksString = JSON.stringify(rd);
     localStorage.setItem('bookInfo', booksString);
     this.retrieveData();
-  };
+  }
 
   removeItem(item) {
     console.log('hello')
@@ -53,7 +53,7 @@ class Books {
       });
       table.innerHTML = bookData;
     }
-  };
+  }
 }
 
 const obj = new Books();
@@ -65,8 +65,9 @@ addBtn.addEventListener('click', (e) => {
 
 function removeFun(item) {
   obj.removeItem(item)
-};
+}
 
 removeButton.addEventListener('click', () => {
-  removeItem("id");
+  obj.removeItem("id");
+  removeFun("id");
 });
