@@ -69,15 +69,15 @@ Clone this repository to your desired folder:git clone https://github.com/Elhamb
 
 ### Install
 
+``` snippet
+  npm install
+```
+
 Install this project with: Any software which you are comfortable with
 
 ### Usage
 
 To run the project, execute the following command: On your computer's keyboard press f5 or run it with live server
-
-### Run tests
-
-To run tests, run the following command: In visual studio code with live server plugin right click and run live server.
 
 <!-- AUTHORS -->
 
@@ -104,7 +104,7 @@ To run tests, run the following command: In visual studio code with live server 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
-## Contributions
+## 🤝 Contributions
 
 Contributions, issues, and feature requests are welcome!
 
@@ -114,7 +114,11 @@ Feel free to check the [issues page](../../issues/).
 
 <!-- SUPPORT -->
 
-If you like this project reach me on my contact
+## ⭐ Show your support <a name="support"></a>
+
+If you like this project please send you feedbacks and give it a start
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
@@ -122,5 +126,5 @@ If you like this project reach me on my contact
 
 I would like to thank in advance. This is the first draft of this project. It works on my machine. If you try it and run into problems, please create an issue; I'll do what I can to fix it.
 
-📝 License
+## 📝 License
 This project is [MIT](./LICENSE) licensed.
