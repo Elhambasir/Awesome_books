@@ -1,3 +1,32 @@
+const bookList = document.querySelector('.list');
+const addToList = document.querySelector('.addToList');
+const contact = document.querySelector('.contact');
+const btnList = document.querySelector('#list');
+const btnAddNew = document.querySelector('#addNew');
+const btnContact = document.querySelector('#contact');
+const datetime = new Date("October 13, 2014 11:13:00");
+const dateTimeContainer = document.querySelector('#date');
+dateTimeContainer.innerHTML = datetime;
+bookList.classList.add('show');
+
+btnList.addEventListener('click', () => {
+  bookList.classList.add('show');
+  contact.classList.remove('show');
+  addToList.classList.remove('show');
+});
+btnAddNew.addEventListener('click', () => {
+  addToList.classList.add('show');
+  bookList.classList.remove('show');
+  contact.classList.remove('show');
+});
+btnContact.addEventListener('click', () => {
+  contact.classList.add('show');
+  bookList.classList.remove('show');
+  addToList.classList.remove('show');
+});
+
+
+
 const titleInput = document.querySelector('.bookTitle');
 const authorInput = document.querySelector('.author');
 const addBtn = document.querySelector('.btnAdd');
@@ -58,8 +87,7 @@ class Books {
 
 const obj = new Books();
 window.location.reload = obj.retrieveData();
-addBtn.addEventListener('click', (e) => {
-  e.preventDefault();
+addBtn.addEventListener('click', () => {
   obj.addBooks();
 })
 
@@ -71,3 +99,5 @@ removeButton.addEventListener('click', () => {
   obj.removeItem("id");
   removeFun("id");
 });
+
+
